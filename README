@@ -1,0 +1,16 @@
+Author: John J. Lee
+
+*** WARNING: HERE BE DRAGONS! ***
+
+This code was written for the final project of MIT 6.866 (Machine Vision).
+It is a basic implementation of optical flow and FOE detection. The code
+was written in a time long before I knew how to design code well.
+
+All .c files are libraries, which are linked into the poorly-named
+test.c. This program reads a series of PGM files (representing a
+video), and outputs another series of PGM files with needles rendered
+on it (representing the computed optical flow). It also will draw a
+white dot on the image representing the FOE.
+
+The included video2images.sh script and jpegtoavi binaries can aid in
+converting a video to a series of PGM files.
